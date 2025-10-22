@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/soluzione/META"
+  "_build/install/default/lib/soluzione/dune-package"
+  "_build/install/default/lib/soluzione/opam"
+]
+bin: [
+  "_build/install/default/bin/soluzione.exe"
+]
