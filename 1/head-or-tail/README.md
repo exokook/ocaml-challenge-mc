@@ -11,3 +11,4 @@ such that `hot()` evaluates to the string `"head"` or `"tail"` depending on a bi
 Random.int(n)
 ```
 to generate a random integer in the range 0..n-1.
+
