@@ -1,0 +1,29 @@
+# C:\Users\Micca\AppData\Local\opam\default\bin\dune.exe build
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location:
+# C:\Users\Micca\AppData\Local\Microsoft\Windows\INetCache\dune\db
+# Workspace root:
+# "C:\\Users\\Micca\\Documents\\ocaml-challenge-mc\\2\\nested-tuples\\solution"
+# Auto-detected concurrency: 12
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ C:\Users\Micca\AppData\Local\opam\default\bin\ocamlc.opt.exe -config > C:\Users\Micca\AppData\Local\Temp\dune_5b2fed_output
+$ (cd _build/default && C:\Users\Micca\AppData\Local\opam\default\bin\ocamlopt.opt.exe -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I bin/.main.eobjs/byte -I bin/.main.eobjs/native -I lib/.solution.objs/byte -I lib/.solution.objs/native -cmi-file bin/.main.eobjs/byte/dune__exe__Main.cmi -no-alias-deps -opaque -o bin/.main.eobjs/native/dune__exe__Main.cmx -c -impl bin/main.ml)
+> File "bin/main.ml", line 8, characters 4-20:
+> 8 | let string_of_result ((name:string), (written, oral)) =
+>         ^^^^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value string_of_result.
+>
+> File "bin/main.ml", line 15, characters 4-9:
+> 15 | let merge ((name1:string), ((written1:int), (oral1:int))) ((name2:string), ((written2:int), (oral2:int))) =
+>          ^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value merge.
+[2]

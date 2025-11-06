@@ -9,3 +9,5 @@ let max_option offer1 offer2 =
 
 let best_offer offer1 offer2 offer3 =  
   max_option offer1 (max_option offer2 offer3);;
+
+  
